@@ -1,0 +1,39 @@
+{
+  "metricDefinitions": [
+    {
+      "Name": "MAPE",
+      "Regex": "MAPE: ([0-9]+\\.?[0-9]*)",
+      "Description": "Mean Absolute Percentage Error - average percentage error"
+    },
+    {
+      "Name": "MAE",
+      "Regex": "MAE: ([0-9]+\\.?[0-9]*)",
+      "Description": "Mean Absolute Error - average absolute difference"
+    },
+    {
+      "Name": "RMSE",
+      "Regex": "RMSE: ([0-9]+\\.?[0-9]*)",
+      "Description": "Root Mean Squared Error - penalizes larger errors more"
+    },
+    {
+      "Name": "R2",
+      "Regex": "R2|R-squared: ([0-9]+\\.?[0-9]*)",
+      "Description": "R-squared - proportion of variance explained"
+    },
+    {
+      "Name": "Mean Error",
+      "Regex": "Mean Error|Bias: ([0-9]+\\.?[0-9]*)",
+      "Description": "Mean Error - average bias (positive = overestimate, negative = underestimate)"
+    },
+    {
+      "Name": "Median Absolute Error",
+      "Regex": "Median Absolute Error: ([0-9]+\\.?[0-9]*)",
+      "Description": "Median Absolute Error - robust to outliers"
+    },
+    {
+      "Name": "MSE",
+      "Regex": "MSE: ([0-9]+\\.?[0-9]*)",
+      "Description": "Mean Squared Error - average squared difference"
+    }
+  ]
+}

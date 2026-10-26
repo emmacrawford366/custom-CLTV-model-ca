@@ -1,0 +1,8 @@
+{
+  "algorithm_suffix": "ca_liv_v1",
+  "target_brands": ["Liquid IV"],
+  "fallback_brand_keywords": ["Liquid IV"],
+  "target_market": "CA",
+  "brand_filter_list": "Liquid IV",
+  "brand_tag": "liv"
+}

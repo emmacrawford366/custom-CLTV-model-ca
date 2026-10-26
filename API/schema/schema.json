@@ -1,0 +1,14 @@
+{
+  "tableColumns": [
+    {
+      "columnName": "user_id",
+      "userIdColumn": true,
+      "dataType": "STRING"
+    },
+    {
+      "columnName": "cltv_score",
+      "userIdColumn": false,
+      "dataType": "DECIMAL"
+    }
+  ]
+}

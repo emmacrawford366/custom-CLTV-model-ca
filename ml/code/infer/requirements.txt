@@ -1,0 +1,9 @@
+flask
+gunicorn
+pandas
+numpy
+scikit-learn
+autogluon.tabular[all]
+psutil
+joblib
+spacy

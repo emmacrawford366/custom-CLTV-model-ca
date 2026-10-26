@@ -1,0 +1,53 @@
+{
+  "policies": {
+    "trainedModels": {
+      "containerLogs": [
+        {
+          "allowedAccountIds": [
+            "211125371066"
+          ],
+          "logType": "ERROR_SUMMARY",
+          "logRedactionConfiguration": {
+            "entitiesToRedact": [
+              "ALL_PERSONALLY_IDENTIFIABLE_INFORMATION",
+              "NUMBERS"
+            ]
+          }
+        }
+      ],
+      "containerMetrics": {
+        "noiseLevel": "HIGH"
+      }
+    },
+    "trainedModelExports": {
+      "maxSize": {
+        "unit": "GB",
+        "value": 2.0
+      },
+      "filesToExport": [
+        "MODEL",
+        "OUTPUT"
+      ]
+    },
+    "trainedModelInferenceJobs": {
+      "containerLogs": [
+        {
+          "allowedAccountIds": [
+            "211125371066"
+          ],
+          "logType": "ERROR_SUMMARY",
+          "logRedactionConfiguration": {
+            "entitiesToRedact": [
+              "ALL_PERSONALLY_IDENTIFIABLE_INFORMATION",
+              "NUMBERS"
+            ]
+          }
+        }
+      ],
+      "maxOutputSize": {
+        "unit": "GB",
+        "value": 3.0
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "algorithm_suffix": "ca_dmc_v1",
+  "target_brands": ["Dove Men+Care"],
+  "fallback_brand_keywords": ["Dove Men+Care"],
+  "target_market": "CA",
+  "brand_filter_list": "Dove Men+Care",
+  "brand_tag": "dmc"
+}
